@@ -1,4 +1,5 @@
 document.getElementById("strBtn").onclick = function () {
+  document.getElementById("result").innerHTML = "CLICK NUMBER TO GUESS";
   let numRandom = Math.floor(Math.random() * 9) + 1;
   var firstNum,
     secondNum,
